@@ -47,6 +47,7 @@ public class skeletonScript : enemyClass
     }
 
 
+    //Seperate into own functions
     private void Update()
     {
         if (target != null)
