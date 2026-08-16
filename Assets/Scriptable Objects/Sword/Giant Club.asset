@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b866df43fbfc06c41ad3f780b2079a58, type: 3}
+  m_Name: Giant Club
+  m_EditorClassIdentifier: Assembly-CSharp::swordScriptableObject
+  inventoryIcon: {fileID: 0}
+  worldIcon: {fileID: 1869960954, guid: 58b3b5a011a118c4796e56725cb6367b, type: 3}
+  maxStackAmount: 1
+  damage: 50
+  requiredStamina: 25
+  knockBack: 25
+  attackSpeed: 3
+  staminaRegenCoolDown: 5
+  baseAttack: {fileID: 7400000, guid: 587e0fc790753814188ba336091cc275, type: 2}
+  heavyAttack: {fileID: 0}
+  holdPos: {x: -0.4, y: 1}
+  holdRot: {x: 0, y: 0, z: 0.70710677, w: 0.70710677}

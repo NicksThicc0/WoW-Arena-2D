@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ac711fc6102ddf4cba9e3114ae31e20, type: 3}
+  m_Name: Iron Boomarang
+  m_EditorClassIdentifier: Assembly-CSharp::boomarangScriptableObject
+  inventoryIcon: {fileID: 0}
+  worldIcon: {fileID: 1864395412, guid: 58b3b5a011a118c4796e56725cb6367b, type: 3}
+  maxStackAmount: 999
+  boomarangSprite: {fileID: 1864395412, guid: 58b3b5a011a118c4796e56725cb6367b, type: 3}
+  isMagic: 0
+  damage: 10
+  throwRange: 5
+  maxBounces: 5
+  throwSpeed: 10
+  detectRange: 2
+  returnTime: 2.5

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9fff8fc1488d1747af49c61753b9846, type: 3}
+  m_Name: Wooden Bow
+  m_EditorClassIdentifier: Assembly-CSharp::bowScriptableObject
+  inventoryIcon: {fileID: 0}
+  worldIcon: {fileID: -1632612679, guid: 58b3b5a011a118c4796e56725cb6367b, type: 3}
+  maxStackAmount: 999
+  drawSpeed: 5
+  maxDraw: 5
+  drawStaminaUsage: 1
