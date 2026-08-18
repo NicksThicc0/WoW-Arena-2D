@@ -90,11 +90,12 @@ public class skeletonScript : enemyClass
 
 
 
+
+    //Throwing Bone Attack
     public void doBoneAttack()
     {
         StartCoroutine(throwBone());
     }
-
     IEnumerator throwBone()
     {
         isAttacking = true;
@@ -127,11 +128,17 @@ public class skeletonScript : enemyClass
         newProjectile.currentDamage = boneDamage;
 
     }
+    //
 
 
 
 
+    public override void handleAnimation()
+    {
+        base.handleAnimation();
 
+        anim.SetBool("isMoving", currentMoveSpeed > .1f);
+    }
 
 
     private void OnDrawGizmos()

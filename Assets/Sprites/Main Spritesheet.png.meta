@@ -2329,6 +2329,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Skeleton Walk 1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 68
+        width: 12
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793523c810c0e48419d1237f63eb7d48
+      internalID: -79036767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton Walk 2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 68
+        width: 12
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d969969531af88e4399a37fc3d2c4128
+      internalID: -1894603410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -2431,6 +2475,8 @@ TextureImporter:
       Silver Arrow: -409437897
       Skeleton: -1540658576
       Skeleton Throw: -1835262769
+      Skeleton Walk 1: -79036767
+      Skeleton Walk 2: -1894603410
       Skelton Hand: -669524849
       Small Player Hand: 904074095
       Stamina Bar: 113448818

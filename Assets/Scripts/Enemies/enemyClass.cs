@@ -32,12 +32,10 @@ public class enemyClass : MonoBehaviour
     [Header("Enemy Scripts")]
     public healthClass healthScript;
 
-    Rigidbody2D rb;
 
 
     public virtual void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
         healthScript = GetComponent<healthClass>();
         anim = GetComponent<Animator>();
     }
@@ -56,7 +54,7 @@ public class enemyClass : MonoBehaviour
 
 
         Vector2 dir = (moveTowardsPos - (Vector2)transform.position).normalized;
-        rb.position += dir * currentMoveSpeed * Time.deltaTime;
+        transform.position += (Vector3)dir * currentMoveSpeed * Time.deltaTime;
 
 
 
@@ -67,7 +65,6 @@ public class enemyClass : MonoBehaviour
 
     public virtual void handleAnimation()
     {
-
         //Look Towards Direction
         int x = moveTowardsPos.x > transform.position.x ? 1 : -1;
         gfx.transform.localScale = new Vector3(x, 1, 1);
@@ -113,6 +110,17 @@ public class enemyClass : MonoBehaviour
         float newMoveSpeed = 0;
 
         newMoveSpeed = walkSpeed;
+
+        if (target != null)
+        {
+            float distanceFromPlayer = Vector2.Distance(transform.position, target.position);
+            if (distanceFromPlayer < stoppingDistance)
+            {
+                return 0;
+            }
+
+
+        }
 
 
         if (!canMove)
